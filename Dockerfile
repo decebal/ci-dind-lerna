@@ -2,7 +2,7 @@ FROM guss77/dind-awscli
 
 RUN apk update \
  && apk upgrade \
- && apk add bash git yarn \
+ && apk add bash git yarn python3 \
  && rm -rf /var/cache/*/* \
  && echo "" > /root/.ash_history
 
