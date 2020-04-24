@@ -15,3 +15,5 @@ RUN yarn global add lerna
 
 RUN ([ -f /usr/bin/sops ] || (wget -q -O /usr/bin/sops https://github.com/mozilla/sops/releases/download/v3.5.0/sops-v3.5.0.linux && chmod +x /usr/bin/sops))
 
+RUN git clone https://github.com/sharkdp/shell-functools /tmp/shell-functools
+
