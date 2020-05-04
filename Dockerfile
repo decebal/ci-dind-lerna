@@ -1,4 +1,4 @@
-FROM docker:latest
+FROM docker:dind
 
 RUN \
 	apk -Uuv add make gcc groff less \
